@@ -14,7 +14,7 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2019-05-30T10:57:12+01:00">2019-05-30T10:57:12+01:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2019-05-30T11:06:41+01:00">2019-05-30T11:06:41+01:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -32,8 +32,8 @@
   <a name="AllFiles"></a>
   <div>
     <b>2</b> files in total.
-    <b>7</b> relevant lines. 
-    <span class="green"><b>7</b> lines covered</span> and
+    <b>8</b> relevant lines. 
+    <span class="green"><b>8</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -53,9 +53,9 @@
       <tr>
         <td class="strong"><a href="#9cf813e7498a25c98fa724331a433ddd37c5776a" class="src_link" title="lib/Log_reader.rb">lib/Log_reader.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>7</td>
-        <td>3</td>
-        <td>3</td>
+        <td>9</td>
+        <td>4</td>
+        <td>4</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -63,7 +63,7 @@
       <tr>
         <td class="strong"><a href="#7c1d00856f5459e75da47dc1d1f31846e6761e51" class="src_link" title="spec/Log_reader_spec.rb">spec/Log_reader_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>9</td>
+        <td>11</td>
         <td>4</td>
         <td>4</td>
         <td>0</td>
@@ -91,8 +91,8 @@
     <h3>lib/Log_reader.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>3</b> relevant lines. 
-      <span class="green"><b>3</b> lines covered</span> and
+      <b>4</b> relevant lines. 
+      <span class="green"><b>4</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -121,22 +121,34 @@
         <li class="covered" data-hits="1" data-linenumber="4">
           <span class="hits">1</span>
           
-          <code class="ruby">  def test</code>
+          <code class="ruby">  def readlogs</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="5">
           <span class="hits">1</span>
           
-          <code class="ruby">    &#39;FOUND&#39;</code>
+          <code class="ruby">    File.open(&quot;lib/webserver.log&quot;, &quot;r&quot;).each do |line|</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="6">
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      return line</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="7">
+        <li class="never" data-hits="" data-linenumber="9">
           
           
           <code class="ruby">end</code>
@@ -191,25 +203,37 @@
           <code class="ruby">describe Logreader do</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="6">
-          <span class="hits">1</span>
+        <li class="never" data-hits="" data-linenumber="6">
           
-          <code class="ruby">  it &#39;can find and read the Log_reader file&#39; do</code>
+          
+          <code class="ruby"></code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="7">
           <span class="hits">1</span>
           
-          <code class="ruby">    expect(Logreader.new.test).to eq(&#39;FOUND&#39;)</code>
+          <code class="ruby">  it &#39;can read the webserver.log file&#39; do</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="8">
           
           
+          <code class="ruby">    #expecting the readlogs method to return text including the first line of the webserver.log file</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(Logreader.new.readlogs).to include(&#39;/help_page/1 126.318.035.038&#39;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="9">
+        <li class="never" data-hits="" data-linenumber="11">
           
           
           <code class="ruby">end</code>
