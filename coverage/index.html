@@ -14,7 +14,7 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2019-05-30T14:09:36+01:00">2019-05-30T14:09:36+01:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2019-05-30T15:56:38+01:00">2019-05-30T15:56:38+01:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,15 +25,15 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         61.36
+         73.2
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>4</b> files in total.
-    <b>34</b> relevant lines. 
-    <span class="green"><b>34</b> lines covered</span> and
+    <b>6</b> files in total.
+    <b>50</b> relevant lines. 
+    <span class="green"><b>50</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -51,31 +51,51 @@
     <tbody>
       
       <tr>
+        <td class="strong"><a href="#447b717dc8634b7a2617ec7923dbad10efcaa0a2" class="src_link" title="lib/Display_results.rb">lib/Display_results.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>11</td>
+        <td>5</td>
+        <td>5</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
         <td class="strong"><a href="#c2e9853bdb946cb5a9e5f50a7d8e28fad97aabce" class="src_link" title="lib/Log_info.rb">lib/Log_info.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>14</td>
-        <td>8</td>
-        <td>8</td>
+        <td>26</td>
+        <td>15</td>
+        <td>15</td>
         <td>0</td>
-        <td>6.8</td>
+        <td>7.6</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#9cf813e7498a25c98fa724331a433ddd37c5776a" class="src_link" title="lib/Log_reader.rb">lib/Log_reader.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>22</td>
-        <td>10</td>
-        <td>10</td>
+        <td>16</td>
+        <td>7</td>
+        <td>7</td>
         <td>0</td>
-        <td>201.6</td>
+        <td>502.6</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#ca156dd2ca59d84c72537fb7a40f228e73e72de9" class="src_link" title="spec/Display_results_spec.rb">spec/Display_results_spec.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>10</td>
+        <td>4</td>
+        <td>4</td>
+        <td>0</td>
+        <td>1.0</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#9a728f7be2f825ff465b1698c285543afc9f9b31" class="src_link" title="spec/Log_info_spec.rb">spec/Log_info_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>15</td>
-        <td>7</td>
-        <td>7</td>
+        <td>21</td>
+        <td>12</td>
+        <td>12</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -83,9 +103,9 @@
       <tr>
         <td class="strong"><a href="#7c1d00856f5459e75da47dc1d1f31846e6761e51" class="src_link" title="spec/Log_reader_spec.rb">spec/Log_reader_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>20</td>
-        <td>9</td>
-        <td>9</td>
+        <td>14</td>
+        <td>7</td>
+        <td>7</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -106,13 +126,98 @@
     
       <div class="source_files">
       
+        <div class="source_table" id="447b717dc8634b7a2617ec7923dbad10efcaa0a2">
+  <div class="header">
+    <h3>lib/Display_results.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>5</b> relevant lines. 
+      <span class="green"><b>5</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="never" data-hits="" data-linenumber="1">
+          
+          
+          <code class="ruby"># frozen_string_literal: true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &#39;Log_reader.rb&#39;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &#39;Log_info.rb&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby"># top line comment</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class Display</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def test</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    &#39;FOUND&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="10">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
         <div class="source_table" id="c2e9853bdb946cb5a9e5f50a7d8e28fad97aabce">
   <div class="header">
     <h3>lib/Log_info.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>8</b> relevant lines. 
-      <span class="green"><b>8</b> lines covered</span> and
+      <b>15</b> relevant lines. 
+      <span class="green"><b>15</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -165,40 +270,112 @@
         <li class="covered" data-hits="3" data-linenumber="8">
           <span class="hits">3</span>
           
-          <code class="ruby">    logreader = Logreader.new</code>
+          <code class="ruby">    accessing_logs</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="9">
-          <span class="hits">3</span>
-          
-          <code class="ruby">    logreader.seperatelogs</code>
-        </li>
-      
-        <li class="covered" data-hits="3" data-linenumber="10">
-          <span class="hits">3</span>
-          
-          <code class="ruby">    logarray = logreader.logs</code>
-        </li>
-      
-        <li class="covered" data-hits="21" data-linenumber="11">
+        <li class="covered" data-hits="21" data-linenumber="9">
           <span class="hits">21</span>
           
-          <code class="ruby">    viewsperpage = logarray.group_by(&amp;:first).map { |url, ip| [url, ip.count] }</code>
+          <code class="ruby">    all_views = @logarray.group_by(&amp;:first).map { |url, ip| [url, ip.count] }</code>
         </li>
       
-        <li class="covered" data-hits="21" data-linenumber="12">
+        <li class="covered" data-hits="21" data-linenumber="10">
           <span class="hits">21</span>
           
-          <code class="ruby">    viewsperpage.sort_by { |_a, b| -b }.flatten</code>
+          <code class="ruby">    all_views.sort_by { |_a, b| -b }.flatten</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="13">
+        <li class="never" data-hits="" data-linenumber="11">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="14">
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="13">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def uq_page_views</code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="14">
+          <span class="hits">3</span>
+          
+          <code class="ruby">    accessing_logs</code>
+        </li>
+      
+        <li class="covered" data-hits="21" data-linenumber="15">
+          <span class="hits">21</span>
+          
+          <code class="ruby">    uq_view = @logarray.group_by(&amp;:first).map { |url, ip| [url, ip.uniq.count] }</code>
+        </li>
+      
+        <li class="covered" data-hits="21" data-linenumber="16">
+          <span class="hits">21</span>
+          
+          <code class="ruby">    uq_view.sort_by { |_a, b| -b }.flatten</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="19">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  private</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="20">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="21">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def accessing_logs</code>
+        </li>
+      
+        <li class="covered" data-hits="6" data-linenumber="22">
+          <span class="hits">6</span>
+          
+          <code class="ruby">    @logread = Logreader.new</code>
+        </li>
+      
+        <li class="covered" data-hits="6" data-linenumber="23">
+          <span class="hits">6</span>
+          
+          <code class="ruby">    @logread.seperatelogs</code>
+        </li>
+      
+        <li class="covered" data-hits="6" data-linenumber="24">
+          <span class="hits">6</span>
+          
+          <code class="ruby">    @logarray = @logread.logs</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="25">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="26">
           
           
           <code class="ruby">end</code>
@@ -214,8 +391,8 @@
     <h3>lib/Log_reader.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>10</b> relevant lines. 
-      <span class="green"><b>10</b> lines covered</span> and
+      <b>7</b> relevant lines. 
+      <span class="green"><b>7</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -265,8 +442,8 @@
           <code class="ruby">  def initialize</code>
         </li>
       
-        <li class="covered" data-hits="5" data-linenumber="8">
-          <span class="hits">5</span>
+        <li class="covered" data-hits="7" data-linenumber="8">
+          <span class="hits">7</span>
           
           <code class="ruby">    @logs = []</code>
         </li>
@@ -286,19 +463,19 @@
         <li class="covered" data-hits="1" data-linenumber="11">
           <span class="hits">1</span>
           
-          <code class="ruby">  def readlogs</code>
+          <code class="ruby">  def seperatelogs</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="12">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="7" data-linenumber="12">
+          <span class="hits">7</span>
           
           <code class="ruby">    File.open(&#39;lib/webserver.log&#39;, &#39;r&#39;).each do |line|</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="13">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="3500" data-linenumber="13">
+          <span class="hits">3500</span>
           
-          <code class="ruby">      return line</code>
+          <code class="ruby">      @logs.push(line.split(&#39; &#39;))</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="14">
@@ -316,40 +493,83 @@
         <li class="never" data-hits="" data-linenumber="16">
           
           
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="ca156dd2ca59d84c72537fb7a40f228e73e72de9">
+  <div class="header">
+    <h3>spec/Display_results_spec.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>4</b> relevant lines. 
+      <span class="green"><b>4</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="never" data-hits="" data-linenumber="1">
+          
+          
+          <code class="ruby"># frozen_string_literal: true</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="17">
+        <li class="covered" data-hits="1" data-linenumber="3">
           <span class="hits">1</span>
           
-          <code class="ruby">  def seperatelogs</code>
+          <code class="ruby">require &#39;Display_results.rb&#39;</code>
         </li>
       
-        <li class="covered" data-hits="4" data-linenumber="18">
-          <span class="hits">4</span>
+        <li class="never" data-hits="" data-linenumber="4">
           
-          <code class="ruby">    File.open(&#39;lib/webserver.log&#39;, &#39;r&#39;).each do |line|</code>
+          
+          <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="2000" data-linenumber="19">
-          <span class="hits">2000</span>
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
           
-          <code class="ruby">      @logs.push(line.split(&#39; &#39;))</code>
+          <code class="ruby">describe Display do</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="20">
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">    end</code>
+          <code class="ruby">  it &#39;reads the file&#39; do</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="21">
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby">    # checking the file exists and can be read</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(Display.new.test).to eq(&#39;FOUND&#39;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="22">
+        <li class="never" data-hits="" data-linenumber="10">
           
           
           <code class="ruby">end</code>
@@ -365,8 +585,8 @@
     <h3>spec/Log_info_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>7</b> relevant lines. 
-      <span class="green"><b>7</b> lines covered</span> and
+      <b>12</b> relevant lines. 
+      <span class="green"><b>12</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -407,7 +627,7 @@
         <li class="covered" data-hits="1" data-linenumber="6">
           <span class="hits">1</span>
           
-          <code class="ruby">  it &#39;filters through the Log info provided by Log_reader&#39; do</code>
+          <code class="ruby">  it &#39;returns page and (positioned adjacent) views for each page&#39; do</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="7">
@@ -422,16 +642,16 @@
           <code class="ruby">    # along with page views count</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="9">
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby"></code>
+          <code class="ruby">    loginfo = Loginformation.new</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="10">
           <span class="hits">1</span>
           
-          <code class="ruby">    loginfo = Loginformation.new</code>
+          <code class="ruby">    expect(loginfo.page_views).to include(90, 89, 82, 81, 80, 78)</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="11">
@@ -443,22 +663,58 @@
         <li class="covered" data-hits="1" data-linenumber="12">
           <span class="hits">1</span>
           
-          <code class="ruby">     expect(loginfo.page_views).to include(&#39;/about&#39;, &#39;/help_page/1&#39;, &#39;/home&#39;)</code>
+          <code class="ruby">    expect(loginfo.page_views).to include(&#39;/about&#39;, &#39;/help_page/1&#39;, &#39;/home&#39;)</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="13">
-          <span class="hits">1</span>
-          
-          <code class="ruby">    expect(loginfo.page_views).to include(90, 89, 82, 81, 80, 78)</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="14">
+        <li class="never" data-hits="" data-linenumber="13">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="15">
+        <li class="never" data-hits="" data-linenumber="14">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="15">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  it &#39;returns page and unique views for each page&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="16">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    loginfo = Loginformation.new</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="17">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(loginfo.uq_page_views).to include(23, 23, 23, 23, 22, 21)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="18">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(loginfo.uq_page_views).to include(&#39;/about/2&#39;, &#39;/contact&#39;, &#39;/index&#39;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="19">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(loginfo.uq_page_views).to include(&#39;/about&#39;, &#39;/help_page/1&#39;, &#39;/home&#39;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="20">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="21">
           
           
           <code class="ruby">end</code>
@@ -474,8 +730,8 @@
     <h3>spec/Log_reader_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>9</b> relevant lines. 
-      <span class="green"><b>9</b> lines covered</span> and
+      <b>7</b> relevant lines. 
+      <span class="green"><b>7</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -516,88 +772,52 @@
         <li class="covered" data-hits="1" data-linenumber="6">
           <span class="hits">1</span>
           
-          <code class="ruby">  it &#39;can read the webserver.log file&#39; do</code>
+          <code class="ruby">  it &#39;seperates each line and pushes them into an array&#39; do</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="7">
           
           
-          <code class="ruby">    # expecting the readlogs method to return text,</code>
+          <code class="ruby">    # expecting the seperatelogs method to push each line into an array</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="8">
           
           
-          <code class="ruby">    # including the first line of the webserver.log file</code>
+          <code class="ruby">    # (seperating each line into the web page and the IP address)</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="9">
           <span class="hits">1</span>
           
-          <code class="ruby">    expect(Logreader.new.readlogs).to include(&#39;/help_page/1 126.318.035.038&#39;)</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="10">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="11">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="12">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  it &#39;seperates each line and pushes them into an array&#39; do</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="13">
-          
-          
-          <code class="ruby">    # expecting the seperatelogs method to push each line into an array</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="14">
-          
-          
-          <code class="ruby">    # (seperating each line into the web page and the IP address)</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="15">
-          <span class="hits">1</span>
-          
           <code class="ruby">    logreader = Logreader.new</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="16">
+        <li class="covered" data-hits="1" data-linenumber="10">
           <span class="hits">1</span>
           
           <code class="ruby">    logreader.seperatelogs</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="17">
+        <li class="covered" data-hits="1" data-linenumber="11">
           <span class="hits">1</span>
           
           <code class="ruby">    expect(logreader.logs[0][0]).to include(&#39;/help_page/1&#39;)</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="18">
+        <li class="covered" data-hits="1" data-linenumber="12">
           <span class="hits">1</span>
           
           <code class="ruby">    expect(logreader.logs[0][1]).to include(&#39;126.318.035.038&#39;)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="19">
+        <li class="never" data-hits="" data-linenumber="13">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="20">
+        <li class="never" data-hits="" data-linenumber="14">
           
           
           <code class="ruby">end</code>

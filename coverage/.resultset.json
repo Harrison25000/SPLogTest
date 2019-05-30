@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/oliverharrison/Projects/smartpension/sptechtest/SPLogTest/spec/Log_info_spec.rb": [
+      "/Users/oliverharrison/Projects/smartpension/sptechtest/SPLogTest/spec/Display_results_spec.rb": [
         null,
         null,
         1,
@@ -9,12 +9,38 @@
         1,
         1,
         null,
+        1,
+        null,
+        null
+      ],
+      "/Users/oliverharrison/Projects/smartpension/sptechtest/SPLogTest/lib/Display_results.rb": [
+        null,
+        null,
+        1,
+        1,
         null,
         null,
         1,
         1,
         1,
+        null,
+        null
+      ],
+      "/Users/oliverharrison/Projects/smartpension/sptechtest/SPLogTest/lib/Log_reader.rb": [
+        null,
+        null,
+        null,
         1,
+        1,
+        null,
+        1,
+        7,
+        null,
+        null,
+        1,
+        7,
+        3500,
+        null,
         null,
         null
       ],
@@ -27,34 +53,45 @@
         1,
         1,
         3,
-        3,
+        21,
+        21,
+        null,
+        null,
+        1,
         3,
         21,
         21,
+        null,
+        null,
+        1,
+        null,
+        1,
+        6,
+        6,
+        6,
         null,
         null
       ],
-      "/Users/oliverharrison/Projects/smartpension/sptechtest/SPLogTest/lib/Log_reader.rb": [
+      "/Users/oliverharrison/Projects/smartpension/sptechtest/SPLogTest/spec/Log_info_spec.rb": [
         null,
         null,
+        1,
         null,
         1,
         1,
         null,
+        null,
         1,
-        5,
-        null,
-        null,
         1,
         1,
         1,
         null,
         null,
-        null,
         1,
-        4,
-        2000,
-        null,
+        1,
+        1,
+        1,
+        1,
         null,
         null
       ],
@@ -68,12 +105,6 @@
         null,
         null,
         1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
         1,
         1,
         1,
@@ -81,6 +112,6 @@
         null
       ]
     },
-    "timestamp": 1559221776
+    "timestamp": 1559228198
   }
 }
