@@ -14,9 +14,12 @@
       ],
       "/Users/oliverharrison/Projects/smartpension/sptechtest/SPLogTest/lib/Log_info.rb": [
         null,
+        null,
         1,
         null,
         null,
+        1,
+        1,
         1,
         1,
         1,
@@ -31,18 +34,18 @@
         1,
         null,
         1,
+        3,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
         2,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        500,
+        1000,
         null,
         null,
         null
@@ -60,6 +63,8 @@
         null,
         null,
         1,
+        null,
+        null,
         1,
         1,
         1,
@@ -68,6 +73,6 @@
         null
       ]
     },
-    "timestamp": 1559212945
+    "timestamp": 1559213860
   }
 }

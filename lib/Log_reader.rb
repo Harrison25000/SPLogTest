@@ -2,7 +2,7 @@
 
 # top line comment
 class Logreader
-  attr_reader :logs
+  attr_accessor :logs
 
   def initialize
     @logs = []

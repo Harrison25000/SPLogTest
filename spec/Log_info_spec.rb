@@ -3,7 +3,7 @@
 require 'Log_info.rb'
 
 describe Loginformation do
-  it 'reads the file' do
-    expect(Loginformation.new.test).to eq('FOUND')
+  it 'can access information from Log_reader' do
+    expect(Loginformation.new.page_views).to eq('/help_page/1')
   end
 end
