@@ -1,0 +1,27 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/oliverharrison/Projects/smartpension/sptechtest/SPLogTest/spec/Log_reader_spec.rb": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/oliverharrison/Projects/smartpension/sptechtest/SPLogTest/lib/Log_reader.rb": [
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1559210232
+  }
+}
