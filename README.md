@@ -10,7 +10,7 @@ I chose to display the information within a csv file as it is better for storing
 - Simplecov - (test coverage 100%)
 - IRB
 
-##How to run:
+## How to run:
 - in console type: irb
 - within IRB type: require_relative "lib/Display_results"
                    Display.new.store_csv_file
