@@ -1,2 +1,2 @@
 echo "coverage" >> .gitignore
-"coverage"
+/coverage

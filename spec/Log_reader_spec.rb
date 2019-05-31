@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'Log_reader.rb'
+require 'log_reader.rb'
 
 describe Logreader do
   it 'seperates each line and pushes them into an array' do

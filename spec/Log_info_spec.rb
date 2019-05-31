@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'Log_info.rb'
+require 'log_info.rb'
 
 describe Loginformation do
   it 'returns page and (positioned adjacent) views for each page' do

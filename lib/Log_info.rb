@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'Log_reader.rb'
+require_relative 'Log_reader'
 
 # top line comment
 class Loginformation
